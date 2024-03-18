@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+body{
+  background: radial-gradient(100% 100% at 49.12% 0%, #FFFFFF 0%, #EFF6FF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+}
+.App{
+  padding: 50px;
+}
+
+.heading{
+  margin-bottom: 27px;
+  font-size: 50px;
+}
+
+.desc{
+  font-size: xx-large;
+  margin-bottom: 27px;
+}
+
+.txtarea{
+  width: 95%;
+  padding: 10px;
+  border-radius: 6px; 
+  border: 1px solid grey;
+
+}
+
+.cont{
+  width: 96%;
+  display: flex;
+
+}
+.hd{
+  border: 1px solid grey;
+  padding: 5px;
+  background-color: #FFFFFF;
+
+}
+
+.val{
+  background-color:#F9FAFB;
+  border: 1px solid grey;
+  padding: 5px; 
+}
